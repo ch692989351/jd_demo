@@ -1,0 +1,92 @@
+.side-nav li {
+  font-weight: 700;
+}
+
+.side-nav li:first-child {
+  border: none;
+}
+@media screen and (min-width: 640px) {
+  html {
+    font-size: 27px;
+  }
+}
+.side-nav {
+  background: #f8f8f8;
+}
+.side-nav li {
+  font-weight: 700;
+}
+.side-nav li::before {
+  background-color: #E5E5E3 !important;
+}
+.side-nav li::after {
+  background-color:#E5E5E3 !important;
+}
+.theme-content>div{
+	
+}
+.side-nav li.active {
+  background-color: #FFFFFF;
+  font-weight: 700;
+}
+.list-box {
+	min-height: 100%;
+  background: #F8F8F8 ;
+}
+.theme-box{background:rgba(253,34,85,.8)}
+.search-wrap {
+  background: linear-gradient(#e43d49, #ed5c66);
+}
+.light-bg {
+  background: linear-gradient(rgba(228, 61, 73, .75), rgba(235, 90, 100, 0.75));
+}
+#app .slider-box {
+  margin-top: 30px;
+}
+.main .dash-grid-wrap {
+ /* background: url(../src/img/ad-b.jpg);*/
+  background-size: 100% 100%;
+}
+.main .dash-grid-wrap .bgimg-1 {
+  background: url(img/theme-default/ad0.png);
+  background-size: 100% 100%;
+}
+.main .dash-grid-wrap .bgimg-2 {
+  background: url(img/theme-default/ad1.png);
+  background-size: 100% 100%;
+}
+.main .dash-grid-wrap .bgimg-3 {
+  background: url(img/theme-default/ad2.png);
+  background-size: 100% 100%;
+}
+.main .dash-grid-wrap .bgimg-4 {
+  background: url(img/theme-default/ad3.png);
+  background-size: 100% 100%;
+}
+.main .dash-grid-wrap .bgimg-5 {
+  background: url(img/theme-default/ad4.png);
+  background-size: 100% 100%;
+}
+.main .dash-grid-wrap .bgimg-6 {
+  background: url(img/theme-default/ad5.png);
+  background-size: 100% 100%;
+}
+.main .dash-grid-wrap .bgimg-7 {
+  background: url(img/theme-default/ad6.png);
+  background-size: 100% 100%;
+}
+.main .dash-grid-wrap .bgimg-8 {
+  background: url(img/theme-default/ad7.png);
+  background-size: 100% 100%;
+}
+.main .dash-grid-wrap .bgimg-9 {
+  background: url(img/theme-default/ad8.png);
+  background-size: 100% 100%;
+}
+.main .dash-grid-wrap .bgimg-10 {
+  background: url(img/theme-default/ad9.png);
+  background-size: 100% 100%;
+}
+.main .dash-grid-wrap .item p {
+  font-size: .7rem;
+}

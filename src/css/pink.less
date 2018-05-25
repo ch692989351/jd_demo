@@ -1,0 +1,69 @@
+.side-nav li:first-child {
+    border: none;
+}
+
+@sidenavbg: #f8f8f8;
+@opcity0: transparent;
+@fff: #FFFFFF;
+//首页搜索框
+@rgba0:rgba(182,13,207,1);
+@rgba0-1:rgba(184,77,231,.95);
+@rgba1:rgba(235,136,250,.9);
+@rgba1-1:rgba(235,136,250,.8);
+@media screen and (min-width: 640px){
+    html{
+        font-size: 27px;
+    }
+}
+.side-nav {
+    background: @sidenavbg;
+    li {
+        font-weight: normal!important;
+        &::before {
+            background-color: @opcity0!important;
+        }
+        &::after {
+            background-color: @opcity0!important;
+        }
+    }
+    li.active {
+        background-color: @fff;
+        font-weight: normal;
+    }
+}
+
+.list-box {
+    background: @fff!important;
+}
+ .search-wrap {
+     background: linear-gradient(@rgba0, @rgba0-1)
+ }
+    
+  .light-bg {
+        background: linear-gradient(@rgba1, @rgba1-1)
+}
+
+
+//主页
+#app .slider-box{
+    margin-top: 38px;
+}
+.main {
+    .dash-grid-wrap {
+        background: url(../img/ad-b.jpg);
+        background-size: 100% 100%;
+        .bgimgwhile(@counter) when (@counter < 11) {
+            .bgimg-@{counter} {
+                background:url("../img/ad@{counter}.png");
+                background-size:100% 100%;
+            }
+            .bgimgwhile(( @counter+1)); // 递归调用自身
+        }
+        .bgimgwhile(1);
+        .item {
+            p{font-size: .7rem;}
+        }
+    }
+}
+
+

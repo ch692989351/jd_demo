@@ -1,0 +1,69 @@
+{
+	"bankinfo": "10",
+	"package0": [
+		[
+			{
+				"title": "热门推荐",
+				"goodsList": [
+					{
+						"text": "手机"
+					}, {
+						"text": "充电宝"
+					}, {
+						"text": "耳机"
+					}
+				]
+			}
+		],
+		[
+			{
+				"title": "手机数码",
+				"goodsList": [
+					{
+						"text": "手机"
+					}, {
+						"text": "充电宝"
+					}, {
+						"text": "耳机"
+					}
+				]
+			}
+		]
+	],
+	"sliderList": [[
+			{
+				"img": "https://ss0.bdstatic.com/5aV1bjqh_Q23odCf/static/superman/img/logo_top_ca79a146.png",
+				"url": ""
+			}
+		]
+	],
+	"sideNavList": [
+		{
+			"title": "热门推荐"
+		}, {
+			"title": "手机数码"
+		}, {
+			"title": "家用电器"
+		}, {
+			"title": "电脑办公"
+		}, {
+			"title": "美妆个护"
+		}, {
+			"title": "计生情趣"
+		}, {
+			"title": "汽车用品"
+		}, {
+			"title": "京东超市"
+		}, {
+			"title": "男装"
+		}
+	],
+	"testList":{
+		"title":"张三",
+		"age":"41"
+	},
+	"testList1":{
+		"title":"李四",
+		"age":"41"
+	}
+}
